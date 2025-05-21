@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  src: url("../public/font/Inter-VariableFont_opsz\,wght.ttf");
+  font-family: "KaushanScript";
+}
+
+@font-face {
+  src: url("../public/font/KaushanScript-Regular.ttf");
+  font-family: "KaushanScript";
+}
+
+body {
+  font-family: "KaushanScript";
+}
+:root {
+  --main-color: #d98262;
+  --secondary-color: #e9bfb0;
+}
