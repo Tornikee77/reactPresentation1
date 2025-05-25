@@ -2,14 +2,21 @@
 
 @font-face {
   src: url("../public/font/Inter-VariableFont_opsz\,wght.ttf");
-  font-family: "KaushanScript";
+  font-family: "Inter";
 }
 
 @font-face {
   src: url("../public/font/KaushanScript-Regular.ttf");
   font-family: "KaushanScript";
 }
-
+@layer utilities {
+  .font-inter {
+    font-family: "inter", sans-serif;
+  }
+  .font-kaushanScript {
+    font-family: "KaushanScript", sans-serif;
+  }
+}
 body {
   background-color: var(--main-color);
   font-family: "KaushanScript";

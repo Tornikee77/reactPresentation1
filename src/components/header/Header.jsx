@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center bg-[var(--color-white)] m-auto mt-[50px] pr-[70px] pl-[70px] max-w-[1440px] h-[50px]">
+    <div className="flex justify-between items-center bg-[var(--color-white)] m-auto mt-[50px] pr-[70px] pl-[70px] rounded-t-[10px] max-w-[1440px] h-[50px]">
       <p className="text-[38px] text-[var(--main-color)]">BurgerSite</p>
       <nav>
-        <ul className="flex space-x-[48px]">
-          <li className="cursor-pointer">Home</li>
+        <ul className="flex space-x-[48px] font-inter">
+          <li className="font-inter cursor-pointer">Home</li>
           <li className="cursor-pointer">Menu</li>
           <li className="cursor-pointer">About Us</li>
           <li className="cursor-pointer">Contact</li>
